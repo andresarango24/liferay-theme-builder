@@ -10,7 +10,7 @@ RUN npm config set strict-ssl false --global
 RUN npm config set registry http://registry.npmjs.org/ --global
 
 # Install Yeoman and gulp globally
-RUN npm install -g yo gulp
+RUN npm install -g yo gulp@3.9.1
 
 # Install the Liferay Theme Generator
 RUN npm install -g generator-liferay-theme@^7.x.x
